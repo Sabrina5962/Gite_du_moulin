@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!-- Exercice du 03/10 - coder le site Gîte du moulin -->
+<!--  -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Index</title>
+</head>
+<body>
+    <div class="container">
+    <nav> 
+      <header> 
+        <div><a href="">Hébergements classiques</a></div>
+        <div><a href="">Hébergements insolites</a></div>
+        <div> <a href=""><img src="logo_gite_moulin.PNG" alt="Logo"></a></div>
+        <div><a href="">Services</a></div>
+        <div><a href="">Contact</a></div>
+
+        <id class="flag">
+        <div><a href=""><img src="data:image/png;base64,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" alt="English"></a>
+
+        </div>
+        
+        </id>
+    </header>
+    </div>
+
+        <div >
+             <img id="photo" src="Photo_homepage.PNG" alt="photo_moulin">
+             <p id="textePhoto">Gîte du Moulin</p>
+        </div>
+
+        <h2>A propos</h2>
+        <p>
+            Émilie et Jérôme vous accueillent dans leur corps de ferme, situé à Pierremont dans les Hauts de France : « Gîte du Moulin ». La dépendance a été entièrement rénovée pour accueillir leurs hébergements :
+            un gîte pour 1 à 6 personnes de 100m² (2 chambres à l’étage), d’un studio de 40m², d’un studio " Suite Privatif " de 40m² avec son spa privatif. Dans leur terrain, plusieurs hébergements insolites : Une Roulotte, un Kota Scandinave simple, un Kota Scandinave avec son bain nordique privatif.
+            Les gîtes sont confortables et fonctionnels. Tout est à votre disposition pour passer un agréable séjour en couple, en famille ou entre amis. Venez les découvrir...
+            Nous sommes situés dans un petit village du Ternois, à 5 minutes du Circuit de Croix en Ternois, 10 minutes de Saint Pol Sur Ternoise, 30 minutes d'Arras, 45 minutes de la Côte d'Opale, Saint Omer... Nous avons encore de belles idées à mettre en place au cours de mois à venir.
+            A très bientôt
+            Émilie et Jérôme
+            
+        </p>
+       
+        
+            <ul>
+                <div id="titreH">
+                    <li><a href="">Hébergements classiques</a></li>
+                    <li><a href="">Hébergements insolites</a></li>
+                    <li><a href="">Services</a></li>
+                </div>
+            </ul>
+        
+
+        <div>
+            <ul>
+            <div id="Photo2">
+                <li><img src="Photo_hebergement1.PNG" alt=""></li>
+                <li><img src="Photo_hebergement2.PNG" alt=""></li>
+                <li><img src="Photo_hebergement3.PNG" alt=""></li>
+            </div>
+            </ul>
+        </div>
+
+        <div>
+           
+            <ul>
+            <div id="titreH">
+                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. </li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. </li>
+            </div>
+
+            </ul>
+            <div id="Reservation">
+                <button >
+                    Réservation
+                </button>
+                <button >
+                    Réservation
+                </button>
+                <button>
+                    Réservation
+                </button>
+            </div>
+       
+        </div>
+
+        <div class="Découvrir">
+            <h2>A découvrir</h2><br>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi mollitia suscipit laborum sunt corrupti consequatur, harum itaque autem ea, magni ducimus totam eos corporis labore aut, ex repellendus modi excepturi?</p>
+            <img id="photo4" src="Decouvrir.PNG" alt="Photo_région">
+        </div>
+ </div>
+    </nav>
+    <div>
+        <!-- Logo facebook et instagram -->
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAAC+klEQVRoge2ZPWgUQRTHfxv1xJggfiBaqAE9LYIgio3oIQgSsTJRBC00jaWdiKYJWmiRxkYh2oiNChaC4mchMYLYGINWKopdwGguiReNmLWYXdgbdteZ3be7J9wfXrFv5t57v5vZuZk5aKqpTOQIxmoDKp51AmVgpecHmAbGgPfAO2AIeO75C5cD7ANuAz8B19JmgFtAF7JfqpUOAaMRBSaxEaA7T4Ay8FQQQLfHwIasIXqAiQwhfJsEjmQB4AD9OQDodhHBd8cBrhQA4dtlKZgLBUL4dj4txOEGgPDtaFKIMjAlVMQMcA21ZJeB5cASYCnQAWwGBv4RowqsTwIitcQ+AVYb5Os1iPXQFuKgEMR9YL5hThMQFzhgCuEg84v9FTWFTGUK8pqQVawlJGAXas6m1SAwLhBH1xZgr+4MG/ZeoYQ3Y9q2AceAVQFfh0Xs48CjuA7tJNvFhq0w82IgfqWMXwNag0H1qbULWBhHaqhPwJ+ItpNAKWX8RcDOoEMHqaRM4Ksa07ZHKMfu4IMO0imU5EeE30GdGiVUV6sOslEoiRvhX+CZhOpq1UFWCCXJQ3W16iBt/D9qDz6Ybh/i1A0803y/I/rOAssi2s4Apyzy1v266yA17JfGaeC7Rf+ovmst804FH/SpNWYZTFKbLPvX1aqDfExXS2K1YL9iftADBPUmVTnJtQZty2Gg0eCD/o68SFBEGfim+apo35gnB9ga4t+eIO9wXGMr6uWVOFCFqSQQ20XtHBYHA+tTqwY8iCNtEN1D2waFHayu5lNLKg2adHKAtzTu1BoJCxw2Ii7QZ0JckM7afiDNdVBWI2J9HQTqDD3ZQCATxGxjwqaWr8+oC4Kos0WecoETwJc0Qc5R/Ij0pwEI6lKBIANSEL5OA3M5gswhOBK6elDniaxBxrG4402qdagtQlYgd1G74dy0H3gVUUwSkJeo/+wLUwW4gdq624JMAtcRuBiUuHwY8qyEusbcQfTlgwvcQR3ghlHnn1mBGppqKiv9BbQaq8hoJU0EAAAAAElFTkSuQmCC">
+
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAADl0lEQVRoge2aO09UQRSAPw0ohOWxlouUCMZCFOwEQyKJxIRHY0tIDP9AkRq0NRJKib2FGq1kfXdorTy0UCBaCYZnBVicM866wN6Ze2eBgi+5uZt7z5w5Z+fMzJmZC0ccURSOeco3AD1AB1AL1AEVgWxZA+aBBSALPANmA+n+RwvwGtje5+sV0BzCgVJgDNhSxb+Bh0AX0jqhWgPV1QB0A+Na17bWPQqUxFWcBt6osjVgGKhKaKwPVcAIsI5tnRpfJaXYUFpAQuugOA98V1veAyd8Co9pwTkgE9w0fzLIQLANPHAt1ILE5RpwoTh2xeIiEmab+jsSE1LDRTQqLncR27JRgg3Y0Wk/O7bhOtIn54HOXd5XA4uIjfWFFA2q0HhgA10x/cD0z914pO9v5T48nid0Ve/PQ1oXGGNbRyGhGcTbMwkqSgP9SIoxDazqNQ081XfpPcp2Iq0yB1zbQ8aE/3QhI5ZVqNLPdgDKgSHgD9GpxxJwByiLUU+l6lguJGQq8iUDfMop/xK4iU1jKoBGfTaRI/eRePNUpJ1xHMkgoWCa+7JDmVZsGMeZdIM7Uo5tibf45UJp4J2WncQvzII7MqTyU8RI6BBnTMsMepQL6kga27FdwmkvrmAHgL1Gs3yCOtKP7dhJyaquPkf5HXbmT4g+dOn9cQIdBqOjq6CUBz4tYmK7IUC9jThMcjkEDa0VlU05yhcipbpWHOWDhlZIjB1bSRXE4afeaxPoMJgJ8VdcBUkc+aL31gQ6DG16/xxXQRJHTDp9I4EOg9ERbPngOyEuqXxbhGwh2rETomt2ULQUZQb3WTmXNLItumPFF0FwR8qQVHwbSQB9nDkFfOCQJI3wfxo/i+ROUbQDXzlEabwhg/yrpnwWGADOIpNdSn8PIFufRm6SIi2skix1y5BU3AwAUUvd28DJGPU4LXVDbD7UIFnsE2SdsqLXlD7rI97axeC0+WDS6e4EFRWbXnZZPuRPiGYrMlg6XQTMnzxRSOigt0yjcN4yBTuqjBTZqDjcw2NV2oyk0+s4bt/vEy3ABnKs0ORaaBTxfJ4waXpSarEb3Pd9CpZgQ2wBuBTcNHeagB/Yidb7ULQG68w6cshSHdDAKKqRPrGhNkyQYP4pQc7sNlXZInI+0YNsGIRYrxtSqrNX6zCj0yYSTrGPp3M5B7wgOvUIfWVxHHB8P+Gox37CUQecJlyrrCIdeh77Cce3QLqPOCIufwFq0mD8AdK0IAAAAABJRU5ErkJggg==">
+    </div>
+</body>
+</html>
